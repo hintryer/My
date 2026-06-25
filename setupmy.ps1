@@ -18,7 +18,7 @@ scoop install FSViewer
 scoop install GeekUninstaller
 scoop install Chrome-Plus
 scoop install Chrome
-
+scoop install Mp3tag
 
 # 清理旧版本
 scoop cleanup *
