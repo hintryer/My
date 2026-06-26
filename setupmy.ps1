@@ -25,6 +25,9 @@ scoop install My/Chrome
 scoop install My/Mp3tag
 scoop install My/FFmpeg
 scoop install My/lx-music-desktop
+scoop install My/VSCodium
+scoop install My/Typora
+scoop install My/yt-dlp
 
 # 安装My常用软件
 scoop install My/7zip
@@ -41,11 +44,14 @@ scoop install Notepad4
 scoop install UMI-OCR
 scoop install FSViewer
 scoop install GeekUninstaller
-scoop install Chrome-Plus
-scoop install Chrome
+scoop install Chrome-Plus        #main与extras 没有这个软件，使用My仓库
+scoop install Chrome             #main与extras 没有这个软件，使用My仓库
 scoop install Mp3tag
 scoop install FFmpeg
 scoop install lx-music-desktop
+scoop install VSCodium
+scoop install Typora
+scoop install yt-dlp
 # 清理旧版本
 scoop cleanup *
 
