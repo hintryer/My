@@ -1,5 +1,5 @@
 {
-    "version": "28",
+    "version": "24.1.0",
     "description": "A fast, lightweight and extensible text editor for Windows. Useful for opening very large files.",
     "homepage": "https://www.emeditor.com/",
     "license": "Shareware",
@@ -29,10 +29,6 @@
         "eeLM.ini",
         "eePlugins.ini"
     ],
-    "checkver": {
-        "url": "https://www.emeditor.com/",
-        "regex": ""
-    },
     "autoupdate": {
         "architecture": {
             "64bit": {
