@@ -1,0 +1,30 @@
+{
+    "version": "1.0",
+    "description": "最适合中文与新人用户的 AHK IDE",
+    "homepage": "https://github.com/hintryer/SciTE",
+    "license": "GPL-3.0",
+    "extract_dir": "SciTE",
+    "architecture": {
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/hintryer/SciTE/releases/download/V1.0/SciTE.zip",
+            "hash": "7ee85feee551f1b579631272f4b33d60de33ed8faacf82b1cc9dd81c6991ca6a"
+        }
+    },
+    "shortcuts": [
+        [
+            "SciTE.exe",
+            "SciTE"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://gh-proxy.org/https://github.com/hintryer/SciTE/releases/download/V$version/SciTE.zip"
+            }
+        },
+        "hash": {
+            "mode": "download"
+        }
+    }
+}

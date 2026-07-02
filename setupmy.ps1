@@ -23,6 +23,7 @@ scoop install My/lx-music-desktop
 scoop install My/VSCodium
 scoop install My/Typora
 scoop install My/yt-dlp
+scoop install My/SciTE
 
 # 清理旧版本
 scoop cleanup *
