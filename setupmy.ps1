@@ -20,7 +20,7 @@ scoop install My/Chrome
 scoop install My/Mp3tag
 scoop install My/FFmpeg
 scoop install My/lx-music-desktop
-scoop install My/VSCodium
+scoop install My/VSCode
 scoop install My/Typora
 scoop install My/yt-dlp
 scoop install My/SciTE
