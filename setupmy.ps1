@@ -21,6 +21,7 @@ scoop install My/Mp3tag
 scoop install My/FFmpeg
 scoop install My/lx-music-desktop
 scoop install My/VSCode
+reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 scoop install My/Typora
 scoop install My/yt-dlp
 scoop install My/SciTE
