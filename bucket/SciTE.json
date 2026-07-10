@@ -6,8 +6,7 @@
     "extract_dir": "SciTE",
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/hintryer/SciTE/releases/download/V1.0/SciTE.zip",
-            "hash": "d2e7811067b9ae8b0b96852acd7aca72bad58ffdf32ba6e469d455fab6e2c2a2"
+            "url": "https://gh-proxy.org/https://github.com/hintryer/SciTE/releases/download/V1.0/SciTE.zip"
         }
     },
     "shortcuts": [
@@ -22,9 +21,6 @@
             "64bit": {
                 "url": "https://gh-proxy.org/https://github.com/hintryer/SciTE/releases/download/V$version/SciTE.zip"
             }
-        },
-        "hash": {
-            "mode": "download"
         }
     }
 }

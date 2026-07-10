@@ -4,6 +4,10 @@
 
 scoop checkup
 
+## 卸载所有软件
+
+scoop list | ForEach-Object { scoop uninstall $_.Name }
+
 ## 使用github安装软件
 
 ```powershell
