@@ -30,3 +30,6 @@ scoop install My/SciTE
 scoop cleanup *
 
 Write-Host "环境配置完成！"
+
+scoop install My/Notepad4
+reg import "D:\Scoop\apps\Notepad4\current\install-context.reg"

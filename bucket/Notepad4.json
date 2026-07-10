@@ -17,16 +17,33 @@
             "hash": "badc8dbdf3f607a76f8799249c711b3048a8c6049cef2ab0036b822072f50faa"
         }
     },
+    "notes": [
+        "Add Visual Studio Code as a context menu option by running:",
+        "reg import \"$dir\\install-context.reg\"",
+        "For file associations, run:",
+        "reg import \"$dir\\install-associations.reg\"",
+        "For github integration, run:",
+        "reg import \"$dir\\install-github-integration.reg\""
+    ],
     "bin": "notepad4.exe",
     "shortcuts": [
-        [
-            "Notepad4.exe",
-            "Notepad4"
-        ],
-        [
-            "matepath.exe",
-            "matepath"
-        ]
+        ["Notepad4.exe", "Notepad4"],
+        ["matepath.exe", "matepath"]
+    ],
+    "post_install": [
+        "$dirpath = \"$dir\".Replace('\\', '\\\\')",
+        "$exepath = \"$dir\\Notepad4.exe\".Replace('\\', '\\\\')",
+        "'install-context', 'uninstall-context' | ForEach-Object {",
+        "  if (Test-Path \"$bucketsdir\\$bucket\\scripts\\Notepad4\\$_.reg\") {",
+        "    $content = Get-Content \"$bucketsdir\\$bucket\\scripts\\Notepad4\\$_.reg\"",
+        "    $content = $content.Replace('$notepaddir', $dirpath)",
+        "    $content = $content.Replace('$notepad', $exepath)",
+        "    if ($global) {",
+        "      $content = $content.Replace('HKEY_CURRENT_USER', 'HKEY_LOCAL_MACHINE')",
+        "    }",
+        "    $content | Set-Content -Path \"$dir\\$_.reg\" -Encoding Unicode",
+        "  }",
+        "}"
     ],
     "pre_install": [
         "'Notepad4.ini', 'matepath.ini', 'Notepad4 DarkTheme.ini' | ForEach-Object {",
@@ -41,11 +58,11 @@
         "    }",
         "}"
     ],
-    "persist": [
-        "Notepad4.ini",
-        "matepath.ini",
-        "Notepad4 DarkTheme.ini"
+    "pre_uninstall": [
+        "if (Test-Path \"$dir\\uninstall-context.reg\") { reg import \"$dir\\uninstall-context.reg\" }",
+        "if (Test-Path \"$dir\\uninstall-associations.reg\") { reg import \"$dir\\uninstall-associations.reg\" }"
     ],
+    "persist": ["Notepad4.ini", "matepath.ini", "Notepad4 DarkTheme.ini"],
     "checkver": {
         "github": "https://github.com/zufuliu/notepad4",
         "regex": "([\\d.]+r\\d+)"
