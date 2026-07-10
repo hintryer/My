@@ -1,5 +1,9 @@
 # Scoop 命令
 
+## 健康检查
+
+scoop checkup
+
 ## 使用github安装软件
 
 ```powershell
