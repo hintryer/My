@@ -1,5 +1,7 @@
 # Scoop 命令
 
+ scoop uninstall Steamcommunity
+ scoop install My/Steamcommunity
 ## 健康检查
 
 scoop checkup
