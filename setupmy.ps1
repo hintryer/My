@@ -23,6 +23,7 @@ scoop install My/lx-music-desktop
 scoop install My/VSCode
 reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 scoop install My/Typora
+scoop install Typora_Plugin
 scoop install My/yt-dlp
 scoop install My/SciTE
 
@@ -33,3 +34,10 @@ Write-Host "环境配置完成！"
 
 scoop install My/Notepad4
 reg import "D:\Scoop\apps\Notepad4\current\install-context.reg"
+
+ scoop uninstall Typora_Plugin
+ scoop install Typora_Plugin
+ 
+scoop uninstall Typora
+scoop install my/Typora
+ 
