@@ -1,21 +1,31 @@
 {
-    "version": "0.12.0",
+    "version": "0.5.0",
     "description": "Nomo 是一款本地优先、Markdown-first 的桌面编辑器",
     "homepage": "https://github.com/nomo-md/nomo",
     "license": "MIT",
     "architecture": {
-        "url": "https://github.com/nomo-md/nomo/releases/download/v0.5.0/Nomo_0.5.0_x64.zip",
-        "hash": "SHA256_HERE"
+        "64bit": {
+            "url": "https://gh-proxy.org/https://github.com/nomo-md/nomo/releases/download/v0.5.0/Nomo_0.5.0_x64.zip",
+            "hash": "08134C7EFE97B08E2C7851DB62E613422B72EF3A1AA4360211625293C7E1DD0A"
+        }
     },
+    "extract_dir": "Nomo",
     "bin": "nomo.exe",
-    "shortcuts": [["nomo.exe", "Nomo Markdown Editor"]],
+    "shortcuts": [
+        [
+            "nomo.exe",
+            "Nomo Markdown Editor"
+        ]
+    ],
     "checkver": {
-        "github": "https://github.com/nomo-md/nomo",
+        "github": "https://gh-proxy.org/https://github.com/nomo-md/nomo",
         "regex": "v([\\d.]+)"
     },
     "autoupdate": {
         "architecture": {
-            "url": "https://gh-proxy.org/https://github.com/nomo-md/nomo/releases/download/v$version/nomo_$version__x64.zip"
+            "64bit": {
+                "url": "https://github.com/nomo-md/nomo/releases/download/v$version/Nomo_$version_x64.zip"
+            }
         }
     }
 }
