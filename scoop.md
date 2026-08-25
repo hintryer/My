@@ -25,18 +25,20 @@ scoop install My/Lanzouyun-git        #main与extras 没有这个软件，使用
 scoop install LocalSend
 scoop install Notepad4
 scoop install UMI-OCR
-scoop install FSViewer
+
 scoop install GeekUninstaller
 scoop install My/Chrome-Plus-git      #main与extras 没有这个软件，使用My仓库
 scoop install My/Chrome-git           #main与extras 没有这个软件，使用My仓库
 scoop install Mp3tag
 scoop install FFmpeg
 scoop install My/lx-music-desktop-git #main与extras 没有这个软件，使用My仓库
-scoop install VSCodium
+scoop install VSCode
 scoop install Typora
-scoop install yt-dlp
+
 ```
 
+scoop install FSViewer
+scoop install yt-dlp
 ## 修改默认安装路径
 
 ```powershell

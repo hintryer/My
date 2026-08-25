@@ -19,11 +19,13 @@ scoop install My/Chrome-Plus
 scoop install My/Chrome
 scoop install My/Mp3tag
 scoop install My/FFmpeg
-scoop install My/lx-music-desktop
-scoop install My/VSCode
+
 reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 scoop install My/Typora
 scoop install Typora_Plugin
+
+scoop install My/lx-music-desktop
+scoop install My/VSCode
 scoop install My/yt-dlp
 scoop install My/SciTE
 
