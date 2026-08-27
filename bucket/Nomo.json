@@ -18,8 +18,7 @@
         ]
     ],
     "checkver": {
-        "github": "https://gh-proxy.org/https://github.com/nomo-md/nomo",
-        "regex": "v([\\d.]+)"
+        "github": "https://github.com/nomo-md/nomo"
     },
     "autoupdate": {
         "architecture": {
