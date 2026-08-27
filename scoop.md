@@ -2,6 +2,7 @@
 
  scoop uninstall Steamcommunity
  scoop install My/Steamcommunity
+
 ## 健康检查
 
 scoop checkup
@@ -39,6 +40,7 @@ scoop install Typora
 
 scoop install FSViewer
 scoop install yt-dlp
+
 ## 修改默认安装路径
 
 ```powershell

@@ -8,18 +8,20 @@ scoop config aria2-warning-enabled false
 scoop install My/Steamcommunity
 scoop install My/EmEditor
 scoop install My/Bili23downloader
-scoop install My/Clash-Verge-Rev
 scoop install My/Lanzouyun
 scoop install My/LocalSend
 scoop install My/Notepad4
 scoop install My/UMI-OCR
-scoop install My/FSViewer
 scoop install My/GeekUninstaller
 scoop install My/Chrome-Plus
 scoop install My/Chrome
 scoop install My/Mp3tag
 scoop install My/FFmpeg
+scoop install My/Nomo
+scoop install My/KillerPDF
 
+scoop install My/Clash-Verge-Rev
+scoop install My/FSViewer
 reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 scoop install My/Typora
 scoop install Typora_Plugin
