@@ -1,26 +1,45 @@
 {
-    "version": "14.0.02",
+    "version": "15.0.3",
     "description": "Reverse proxy tool to access Steam Community in mainland China.",
     "homepage": "https://www.dogfight360.com/blog/18682/",
     "license": "Freeware",
-    "url": "https://www.dogfight360.com/blog/wp-content/uploads/2026/02/steamcommunity_302_AMD64_V14.0.02.zip",
-    "hash": "md5:69753097aa8302f8fb5c8bec468679dc",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.dogfight360.com/Usbeam/V15/Steamcommunity_302_15.0.3_Windows_x64.zip",
+            "hash": "9d2f3726e28bb60b53221cba71866102f490c4cdbd0aa15469511d4d68f6c6cf"
+        },
+        "arm64": {
+            "url": "https://www.dogfight360.com/Usbeam/V15/Steamcommunity_302_15.0.3_Windows_arm64.zip",
+            "hash": "316e69ad044723dd90f9f7cdad76085ead6655221622d7d9a6ad5328bab86136"
+        }
+    },
     "extract_dir": "Steamcommunity_302",
     "shortcuts": [
         [
-            "Steamcommunity_302.exe",
+            "steamcommunity_302.exe",
             "SteamCommunity 302"
         ]
     ],
-    "depends": "main/7zip",
     "checkver": {
-        "regex": "uploads/(?<Date>[\\d/]+)/steamcommunity_302_AMD64_V([\\d]+(?:\\.[\\d]+)*)(?<Suffix>[-_0-9a-zA-Z]+)?\\.zip"
+        "url": "https://www.dogfight360.com/blog/18682/",
+        "regex": "Steamcommunity_302_([\\d.]+)_Windows_x64\\.zip"
     },
     "autoupdate": {
-        "url": "https://www.dogfight360.com/blog/wp-content/uploads/$matchDate/steamcommunity_302_AMD64_V$version$matchSuffix.zip",
-        "hash": {
-            "url": "https://www.dogfight360.com/blog/18682/",
-            "regex": "$md5\\s+steamcommunity_302_AMD64_V$version$matchSuffix\\.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://www.dogfight360.com/Usbeam/V$majorVersion/Steamcommunity_302_$version_Windows_x64.zip",
+                "hash": {
+                    "url": "https://www.dogfight360.com/blog/18682/",
+                    "find": "Steamcommunity_302_$version_Windows_x64\\.zip\\s+([a-fA-F0-9]{64})"
+                }
+            },
+            "arm64": {
+                "url": "https://www.dogfight360.com/Usbeam/V$majorVersion/Steamcommunity_302_$version_Windows_arm64.zip",
+                "hash": {
+                    "url": "https://www.dogfight360.com/blog/18682/",
+                    "find": "Steamcommunity_302_$version_Windows_arm64\\.zip\\s+([a-fA-F0-9]{64})"
+                }
+            }
         }
     }
 }
