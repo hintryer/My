@@ -5,15 +5,15 @@
     "license": "BSD-3-Clause",
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_x64_v26.10r6392.zip",
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_x64_v26.10r6392.zip",
             "hash": "e36b1fc31f7beb6b1f6eee1c2f9b4f214c3a48c899b64d6d7813569d43e3358e"
         },
         "32bit": {
-            "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_i18n_Win32_v26.10r6392.zip",
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_i18n_Win32_v26.10r6392.zip",
             "hash": "caa931f22b1773cee7246256e3a7917759f1c6c2817518750662a2b19d12be82"
         },
         "arm64": {
-            "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_ARM64_v26.10r6392.zip",
+            "url": "https://github.com/zufuliu/notepad4/releases/download/v26.10r6392/Notepad4_zh-Hans_ARM64_v26.10r6392.zip",
             "hash": "468d3929085aa750e02a928c65b42ecb0851b7c2da7cb645f1f1d577d0bfaa78"
         }
     },
@@ -76,13 +76,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_zh-Hans_x64_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_zh-Hans_x64_v$version.zip"
             },
             "32bit": {
-                "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_i18n_Win32_v$version.zip"
             },
             "arm64": {
-                "url": "https://gh-proxy.org/https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_zh-Hans_ARM64_v$version.zip"
+                "url": "https://github.com/zufuliu/notepad4/releases/download/v$version/Notepad4_zh-Hans_ARM64_v$version.zip"
             }
         }
     }

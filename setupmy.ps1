@@ -19,18 +19,19 @@ scoop install My/Mp3tag
 scoop install My/FFmpeg
 scoop install My/Nomo
 scoop install My/KillerPDF
+scoop install My/airsnip
+scoop install My/Karing
 
-scoop install My/Clash-Verge-Rev
-scoop install My/FSViewer
-reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 scoop install My/Typora
 scoop install Typora_Plugin
 
 scoop install My/lx-music-desktop
 scoop install My/VSCode
-scoop install My/yt-dlp
-scoop install My/SciTE
 
+scoop install My/SciTE
+scoop install My/yt-dlp
+scoop install My/FSViewer
+reg import "D:\Scoop\apps\vscode\current\install-context.reg"
 # 清理旧版本
 scoop cleanup *
 

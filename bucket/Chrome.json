@@ -7,15 +7,15 @@
     "notes": "This package acts as a binary provider. It downloads and injects the official Google Chrome binaries directly into the 'rojem/chrome-plus' installation directory. It strictly requires 'chrome-plus' to be installed first.",
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/x64_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
+            "url": "https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/x64_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
             "hash": "acb77d39d1759408ad6f9874081c25e68cd042f1de6145064bbc9c2be4ad733e"
         },
         "32bit": {
-            "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/x86_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
+            "url": "https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/x86_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
             "hash": "b9342a5e718678ee56ac876900672a54f7eff205c9178072b8a833d2bd09c910"
         },
         "arm64": {
-            "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/arm64_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
+            "url": "https://github.com/Bush2021/chrome_installer/releases/download/157.0.8103.79/arm64_157.0.8103.79_chrome_installer_uncompressed.exe#/dl.7z",
             "hash": "34b6d0c53044abba2e6d252c8473591985bb53ff076a509de4dab0589904683c"
         }
     },
@@ -41,13 +41,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/$version/x64_$version_chrome_installer_uncompressed.exe#/dl.7z"
+                "url": "https://github.com/Bush2021/chrome_installer/releases/download/$version/x64_$version_chrome_installer_uncompressed.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/$version/x86_$version_chrome_installer_uncompressed.exe#/dl.7z"
+                "url": "https://github.com/Bush2021/chrome_installer/releases/download/$version/x86_$version_chrome_installer_uncompressed.exe#/dl.7z"
             },
             "arm64": {
-                "url": "https://gh-proxy.org/https://github.com/Bush2021/chrome_installer/releases/download/$version/arm64_$version_chrome_installer_uncompressed.exe#/dl.7z"
+                "url": "https://github.com/Bush2021/chrome_installer/releases/download/$version/arm64_$version_chrome_installer_uncompressed.exe#/dl.7z"
             }
         }
     }
