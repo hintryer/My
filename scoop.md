@@ -3,6 +3,23 @@
  scoop uninstall Steamcommunity
  scoop install My/Steamcommunity
 
+## scoop 恢复一键脚本（保留 D:\scoop）
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+$env:SCOOP="D:\scoop"
+[Environment]::SetEnvironmentVariable("SCOOP","D:\scoop","User")
+$shim = Join-Path $env:SCOOP "shims"
+$p = [Environment]::GetEnvironmentVariable("PATH","User")
+if (-not $p.Contains($shim)) {
+  [Environment]::SetEnvironmentVariable("PATH","$p;$shim","User")
+}
+. "$env:SCOOP\apps\scoop\current\lib\core.ps1"
+scoop reset *
+scoop update
+scoop checkup
+```
+
 ## 健康检查
 
 scoop checkup

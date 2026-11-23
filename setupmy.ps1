@@ -8,7 +8,7 @@ scoop config aria2-warning-enabled false
 scoop install My/Steamcommunity
 scoop install My/EmEditor
 scoop install My/Bili23downloader
-scoop install My/Lanzouyun
+scoop install My/Linux.do-Accelerator
 scoop install My/LocalSend
 scoop install My/Notepad4
 scoop install My/UMI-OCR
@@ -21,10 +21,8 @@ scoop install My/Nomo
 scoop install My/KillerPDF
 scoop install My/airsnip
 scoop install My/Karing
-
 scoop install My/Typora
-scoop install Typora_Plugin
-
+scoop install My/Typora_Plugin
 scoop install My/lx-music-desktop
 scoop install My/VSCode
 
@@ -39,10 +37,3 @@ Write-Host "环境配置完成！"
 
 scoop install My/Notepad4
 reg import "D:\Scoop\apps\Notepad4\current\install-context.reg"
-
- scoop uninstall Typora_Plugin
- scoop install Typora_Plugin
- 
-scoop uninstall Typora
-scoop install my/Typora
- 
