@@ -20,15 +20,15 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp.exe",
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp.exe",
             "hash": "622ed48023cac1daa52a3bf3a6ac38f03514de214b5f0fa069389fd0f6d17e5c"
         },
         "32bit": {
-            "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp_x86.exe#/yt-dlp.exe",
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp_x86.exe#/yt-dlp.exe",
             "hash": "7761097c234a9b21126dcc586e22c563680978223a94b401cc6fe71eca02463c"
         },
         "arm64": {
-            "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp_arm64.exe#/yt-dlp.exe",
+            "url": "https://github.com/yt-dlp/yt-dlp/releases/download/2026.11.23/yt-dlp_arm64.exe#/yt-dlp.exe",
             "hash": "9bb324203d02970b70dab6c9f6a48bd5ff185db7859d562cdacd1dc655ccb72a"
         }
     },
@@ -43,13 +43,13 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
+                "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp.exe"
             },
             "32bit": {
-                "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
+                "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_x86.exe#/yt-dlp.exe"
             },
             "arm64": {
-                "url": "https://gh-proxy.org/https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_arm64.exe#/yt-dlp.exe"
+                "url": "https://github.com/yt-dlp/yt-dlp/releases/download/$version/yt-dlp_arm64.exe#/yt-dlp.exe"
             }
         },
         "hash": {
